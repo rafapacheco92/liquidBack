@@ -24,14 +24,6 @@ public class DrinksController {
         return ResponseEntity.ok(drinks);
     }
 
-    // @PostMapping("/drinks-liquid-post")
-    // public ResponseEntity<?> postMethodName(@RequestBody CreateDrink dto){
-       
-        
-
-    //     return ResponseEntity.ok(dto);
-    // } 
-
     
     @PostMapping("/drinks-liquid-post")
     public ResponseEntity<?> postUserFutAgenda(@RequestBody CreateDrink dto){
